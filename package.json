@@ -4,8 +4,8 @@
   "private": true,
   "author": "yalin <leiyalin28@gmail.com>",
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build-prod": "vue-cli-service build --mode production_env",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production_env",
     "build-test": "vue-cli-service build --mode test_env",
     "report": "vue-cli-service build --report",
     "lint-fix": "vue-cli-service lint --fix"

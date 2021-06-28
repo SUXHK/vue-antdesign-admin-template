@@ -139,7 +139,7 @@
           </div>
         </div>
         <a-divider />
-        <div :style="{ marginBottom: '24px' }">
+        <!-- <div :style="{ marginBottom: '24px' }">
           <a-button @click="doCopy" icon="copy" block>拷贝设置</a-button>
           <a-alert type="warning" :style="{ marginTop: '24px' }">
             <span slot="message">
@@ -149,7 +149,7 @@
               >
             </span>
           </a-alert>
-        </div>
+        </div> -->
       </div>
       <div class="setting-drawer-index-handle" @click="toggle" slot="handle">
         <a-icon type="setting" v-if="!visible" />
